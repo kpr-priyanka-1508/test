@@ -1,0 +1,200 @@
+body{
+    background-color: #fff;
+}
+.rowcustom{
+    display: flex;
+    flex-wrap: nowrap !important; /* Prevents wrapping to the next line */
+    gap: 10px; /* Maintain a gap between the boxes */
+}
+
+.box {
+    flex-basis: 16%; /* Adjust this value as needed to fit all boxes */
+    height: 152px;
+    padding: 21.6px 24px 26.4px 16px;
+    border-radius: 7px;
+    background-color: #fff;
+    box-shadow: 0 2px 20px 0 rgba(54, 32, 77, 0.03);
+    border: solid 2px #f2f0ff;
+}
+
+.blue_box {
+    flex-basis: 32%; 
+    height: 152px;
+    padding: 17.7px 18px 17.6px 21px;
+    border-radius: 7px;
+    box-shadow: inset -2px 0 10px 0 rgba(173, 165, 182, 0.1);
+    background-image: linear-gradient(19deg, #36204d 49%, #644385 102%);
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    position: relative;
+    overflow: hidden;
+}
+
+/* .circular_main_div {
+    display: flex;
+    align-items: center;
+    width: 100%;
+    justify-content: space-between;
+}
+
+.circular_left {
+    width: 60%;
+    color: #fff;
+    font-size: 1.2rem;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+}
+
+.circular_left p {
+    margin: 0;
+    padding: 0;
+}
+
+.circular_right {
+    width: 40%;
+    position: relative;
+    top: -0px; /* Adjust this value to move the circular bar upwards */
+/* }
+
+.circular_right > div {
+    width: 100%; 
+    height: auto; 
+}  */
+
+.segmented-container{
+    display: flex;
+}
+
+.percentage-text{
+    width: 100px;
+    height: 61px;
+    flex-grow: 0;
+    margin: 13px 124px 0 14px;
+    font-family: Lato;
+    font-size: 35px;
+    font-weight: 800;
+    font-stretch: normal;
+    font-style: normal;
+    line-height: 1.75;
+    letter-spacing: 0.23px;
+    text-align: left;
+    color: #fff;
+
+}
+.para{
+    width: 176px;
+    height: 31px;
+    flex-grow: 0;
+    margin: 11.7px 17px 13px 12px;
+    font-family: Poppins;
+    font-size: 18px;
+    font-weight: 600;
+    font-stretch: normal;
+    font-style: normal;
+    line-height: 1.75;
+    letter-spacing: normal;
+    text-align: left;
+    color: #fff;
+
+}
+.inner_box{
+    display: flex;
+   padding-top: 2px;
+    justify-content:flex-start;
+}
+.inner_img{
+    width:30px !important;
+    padding-top: 0px;
+    align-items: start;
+    margin: 0 0 35px 10px;
+}
+.inner_box p{
+    width:40%;
+   
+    flex-grow: 0;
+    margin: 0 0 35px 13px;
+    font-family: Poppins;
+    font-size: 14px;
+    font-weight: 600;
+    font-stretch: normal;
+    font-style: normal;
+    line-height: 1.28;
+    letter-spacing: normal;
+    text-align: left;
+    color: #222324;
+  
+}
+.per1{
+    width: 56px;
+    height: 33px;
+    flex-grow: 0;
+    margin: 35px 87px 0 7px;
+    font-family: Poppins;
+    font-size: 30px;
+    font-weight: 600;
+    font-stretch: normal;
+    font-style: normal;
+    line-height: 1.1;
+    letter-spacing: normal;
+    text-align: left;
+    color: #10c61c;
+  
+}
+.per2{
+    width: 63px;
+  height: 33px;
+  flex-grow: 0;
+  margin: 38px 80px 0 10px;
+  font-family: Poppins;
+  font-size: 30px;
+  font-weight: 600;
+  font-stretch: normal;
+  font-style: normal;
+  line-height: 1.1;
+  letter-spacing: normal;
+  text-align: right;
+  color: #ff4747;
+}
+.per3{
+    width: 59px;
+  height: 33px;
+  flex-grow: 0;
+  margin: 38px 90px 0 3px;
+  font-family: Poppins;
+  font-size: 30px;
+  font-weight: 600;
+  font-stretch: normal;
+  font-style: normal;
+  line-height: 1.1;
+  letter-spacing: normal;
+  text-align: right;
+  color: #10c61c;
+}
+.per4{
+    width: 59px;
+    height: 33px;
+    flex-grow: 0;
+    margin: 40px 74px 0 10px;
+    font-family: Poppins;
+    font-size: 30px;
+    font-weight: 600;
+    font-stretch: normal;
+    font-style: normal;
+    line-height: 1.1;
+    letter-spacing: normal;
+    text-align: right;
+    color: #36204d;
+}
+.chart_main_div{
+    width: 100%;
+    height: auto;
+    flex-grow: 0;
+    margin: 23px 10px 0 1px;
+    padding: 41px 102px 16px 36px;
+    border-radius: 7px;
+    box-shadow: 0 2px 20px 0 rgba(54, 32, 77, 0.03);
+    border: solid 2px #f2f0ff;
+    background-color: #fff;
+}
